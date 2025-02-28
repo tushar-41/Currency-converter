@@ -80,3 +80,35 @@
     font-size: 1.15rem;
     cursor: pointer;
   } 
+
+  @media (max-width: 480px) {
+    .container {
+      width: 90vw;
+      padding: 1rem;
+    }
+  
+    form {
+      margin: 1rem 0;
+    }
+  
+    .dropdown {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+    }
+  
+    .select-container {
+      width: 3.5rem;
+    }
+  
+    form input,
+    .select-container select {
+      font-size: 0.85rem;
+    }
+  
+    form button {
+      font-size: 0.95rem;
+      height: 2.5rem;
+    }
+  }
